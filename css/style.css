@@ -122,30 +122,13 @@ section h2{
 ------------------------------------------------------------*/
 
 .vision{
-	width: 60%;
+	width: 50%;
 	margin: 0 auto;
 	padding-bottom: 80px;
 }
 
 
-/* SEC02 MESSAGE
-------------------------------------------------------------*/
-.wrap{
-	clear: both;
-	width: 100%;
-	background: #f6f6f6;
-}
-
-.bg{
-	line-height: 0;
-}
-
-.txt h2{
-	padding: 0 0 20px !important;
-}
-
-
-/* SEC03 SERVICE MESSAGE STORY
+/* SEC03 SERVICE 
 ------------------------------------------------------------*/
 .col3 li{
 	margin-bottom: 50px;
@@ -156,17 +139,6 @@ section h2{
 	display: block;
 	margin: -5px auto 20px;
 }
-
-
-/* SEC04 STORY & SUCCESS
-------------------------------------------------------------*/
-#sec04{
-	background: url(../images/bgSec04.jpg) no-repeat 100% 100% fixed;
-	background-size: cover;
-	-webkit-background-size: cover;
-	color: #fff;
-}
-
 
 /* SEC05 PROFILE
 ------------------------------------------------------------*/
