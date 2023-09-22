@@ -65,7 +65,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 
 #slogan h1{
 	font-size: 40px;
-	font-family: 'Roboto Mono', cursive;
+	font-family: 'Roboto Mono', sans-serif;
 	margin-bottom: 20px;
 	font-weight:normal;
 }
