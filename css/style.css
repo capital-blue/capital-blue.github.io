@@ -419,10 +419,16 @@ section h2{
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
   }
+
   .col3 li{
     margin: 0 auto;
     display: block;
     max-width: 288px;
+  }
+
+  .kaisha {
+    width: 80%;
+    margin: 0 auto;
   }
 }
 
