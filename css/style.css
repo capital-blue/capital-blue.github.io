@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Pacifico);
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
 
@@ -136,7 +135,7 @@ input:focus {
 
 #slogan h1 {
   font-size: 48px;
-  font-family: "Pacifico", "Josefin Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: bold;
   text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);
 }
@@ -382,7 +381,7 @@ section h2 {
 @media only screen and (max-width: 799px) {
   #slogan h1 {
     font-size: 48px;
-    font-family: "Pacifico", "Josefin Sans", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: bold;
     text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);
   }
