@@ -245,6 +245,11 @@ section h2 {
   }
 }
 
+.kaisha th {
+  min-width: 6em;
+  white-space: nowrap;
+}
+
 #sec05 header {
   display: none;
 }
