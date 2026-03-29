@@ -1,0 +1,380 @@
+/* FDO Cloud Product Page Styles
+------------------------------------------------------------*/
+
+/* ヒーロー */
+#fdo-hero {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  background: linear-gradient(135deg, #0a244d 0%, #0d3a7a 55%, #1a5fa8 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#fdo-hero::before {
+  content: "";
+  position: absolute;
+  top: -80px;
+  right: -80px;
+  width: 400px;
+  height: 400px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 50%;
+}
+
+#fdo-hero::after {
+  content: "";
+  position: absolute;
+  bottom: -120px;
+  left: -60px;
+  width: 320px;
+  height: 320px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 50%;
+}
+
+#fdo-hero-inner {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+#fdo-hero #slogan {
+  position: static;
+  transform: none;
+  color: #fff;
+}
+
+#fdo-hero #slogan h1 {
+  color: #fff;
+  text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+#fdo-hero #slogan h2 {
+  color: rgba(255, 255, 255, 0.88);
+  text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* ナビ：戻るリンク */
+.back-link {
+  font-size: 12px;
+  opacity: 0.75;
+}
+
+/* セクション共通 */
+.product-page section {
+  padding: 0 0 60px;
+}
+
+.product-page section > header {
+  padding: 60px 0 30px;
+}
+
+/* FDOとは */
+#fdo-about {
+  background: #f9f9f9;
+}
+
+.fdo-about-inner {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.fdo-about-text {
+  flex: 1;
+}
+
+.fdo-about-text p {
+  margin-bottom: 1em;
+  line-height: 1.9;
+}
+
+.fdo-about-img {
+  flex: 0 0 100px;
+  text-align: center;
+}
+
+.fdo-about-img img {
+  width: 100px;
+  height: auto;
+  opacity: 0.85;
+}
+
+/* 特長 */
+#fdo-features {
+  background: #fff;
+}
+
+.fdo-features-list li {
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  padding: 28px 24px;
+  box-sizing: border-box;
+}
+
+.feature-icon {
+  font-size: 32px;
+  margin-bottom: 12px;
+  display: block;
+  text-align: center;
+}
+
+.fdo-features-list h3 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  line-height: 1.5;
+}
+
+.fdo-features-list p {
+  font-size: 13px;
+  line-height: 1.8;
+  color: #444;
+}
+
+/* ユースケース */
+#fdo-usecase {
+  background: #f9f9f9;
+}
+
+.fdo-usecase-list {
+  width: 80%;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.fdo-usecase-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 28px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.fdo-usecase-list li:last-child {
+  border-bottom: none;
+}
+
+.usecase-tag {
+  flex: 0 0 80px;
+  background: #0a244d;
+  color: #fff;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-top: 4px;
+  white-space: nowrap;
+}
+
+.usecase-body h3 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.usecase-body p {
+  font-size: 13px;
+  color: #444;
+  line-height: 1.8;
+}
+
+/* 料金プラン */
+#fdo-pricing {
+  background: #fff;
+}
+
+.fdo-pricing-inner {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pricing-lead {
+  margin-bottom: 40px;
+  color: #555;
+  line-height: 1.9;
+}
+
+.pricing-cards {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pricing-card {
+  flex: 1;
+  min-width: 220px;
+  max-width: 280px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 32px 24px;
+  text-align: left;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.pricing-card.featured {
+  border: 2px solid #0a244d;
+  box-shadow: 0 4px 20px rgba(10, 36, 77, 0.12);
+}
+
+.featured-badge {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #0a244d;
+  color: #fff;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 4px 14px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.pricing-card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+  margin-bottom: 6px;
+}
+
+.pricing-target {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.pricing-card ul {
+  list-style: none;
+  margin-bottom: 28px;
+}
+
+.pricing-card ul li {
+  font-size: 13px;
+  padding: 6px 0;
+  border-bottom: 1px solid #f0f0f0;
+  color: #333;
+}
+
+.pricing-card ul li::before {
+  content: "✓ ";
+  color: #0a244d;
+  font-weight: bold;
+}
+
+.btn-contact {
+  display: block;
+  text-align: center;
+  background: #0a244d;
+  color: #fff !important;
+  padding: 12px 0;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none !important;
+  transition: background 0.2s;
+}
+
+.btn-contact:hover {
+  background: #1a5fa8;
+  text-decoration: none !important;
+}
+
+/* お問い合わせ */
+#fdo-contact {
+  background: #0a244d;
+  padding-bottom: 80px;
+}
+
+#fdo-contact header {
+  padding-top: 60px;
+}
+
+#fdo-contact header h2 {
+  color: #fff;
+}
+
+.fdo-contact-inner {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 2;
+}
+
+.fdo-contact-inner p {
+  margin-bottom: 24px;
+}
+
+.contact-mail {
+  display: inline-block;
+  color: #fff !important;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  padding: 14px 40px;
+  border-radius: 6px;
+  transition:
+    border-color 0.2s,
+    background 0.2s;
+}
+
+.contact-mail:hover {
+  border-color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+  text-decoration: none !important;
+}
+
+/* フッター */
+.product-page #footer a {
+  color: #0066ff;
+}
+
+/* レスポンシブ */
+@media only screen and (max-width: 799px) {
+  #fdo-hero {
+    height: 300px;
+  }
+
+  .fdo-about-inner {
+    width: 90%;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .fdo-usecase-list {
+    width: 90%;
+  }
+
+  .fdo-usecase-list li {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .usecase-tag {
+    flex: none;
+    width: fit-content;
+  }
+
+  .pricing-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing-card {
+    max-width: 90%;
+    width: 90%;
+  }
+}
