@@ -276,6 +276,34 @@
   font-weight: bold;
 }
 
+.pricing-price {
+  font-size: 22px;
+  font-weight: bold;
+  color: #0a244d;
+  margin: 8px 0 20px;
+  line-height: 1.5;
+}
+
+.pricing-price .pricing-unit {
+  font-size: 13px;
+  font-weight: normal;
+  color: #555;
+}
+
+.pricing-price small {
+  display: block;
+  font-size: 14px;
+  color: #444;
+  margin-top: 4px;
+}
+
+.pricing-note {
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+  margin-top: 24px;
+}
+
 .btn-contact {
   display: block;
   text-align: center;

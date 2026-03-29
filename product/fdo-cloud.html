@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta
       name="description"
-      content="FDOクラウド - FIDO Device Onboard準拠のIoTデバイス向けセキュリティプラットフォーム。ゼロタッチオンボーディングで企業のIoT展開を安全かつ迅速に実現します。"
+      content="IoT向けパスワードレス認証基盤（FIDO／パスキー相当のセキュリティ）。ゼロタッチでデバイスを安全に接続。ライセンス提供＋技術顧問で、IoT機器メーカー・製造業DX・SIerを支援します。"
     />
     <meta name="viewport" content="width=device-width" />
     <title>FDOクラウド | Capital Blue</title>
@@ -23,7 +23,7 @@
       <div class="panel">
         <ul>
           <li><a href="#fdo-hero">Top</a></li>
-          <li><a href="#fdo-about">FDOとは</a></li>
+          <li><a href="#fdo-about">サービス概要</a></li>
           <li><a href="#fdo-features">特長</a></li>
           <li><a href="#fdo-usecase">ユースケース</a></li>
           <li><a href="#fdo-contact">お問い合わせ</a></li>
@@ -37,7 +37,7 @@
       <div id="fdo-hero-inner">
         <div id="slogan">
           <h1>FDO Cloud</h1>
-          <h2>FIDO Device Onboard セキュリティプラットフォーム</h2>
+          <h2>IoT向けゼロタッチ認証基盤（ライセンス型）</h2>
         </div>
       </div>
     </header>
@@ -45,24 +45,24 @@
     <!-- ABOUT FDO -->
     <section id="fdo-about">
       <header>
-        <h2>FDOとは</h2>
+        <h2>サービス概要</h2>
       </header>
       <div class="fdo-about-inner">
         <div class="fdo-about-text">
           <p>
-            FIDO Device Onboard（FDO）とは、<strong>FIDO Alliance</strong
-            >が策定した
-            IoTデバイスの自動セキュアプロビジョニング国際標準規格（FIDO
-            Alliance仕様）です。
+            本サービスは、IoTデバイス向けの<strong>パスワードレス認証</strong>と
+            <strong>ゼロタッチ登録（自動プロビジョニング）</strong
+            >を実現する認証基盤を、 ライセンス形式で提供するソリューションです。
           </p>
           <p>
-            デバイスの初回起動時に、人手を介さず安全にクラウドやオンプレミスサーバーへ
-            自動接続・認証できるプロトコルであり、製造から現場展開までのサプライチェーン全体を
-            暗号化・署名で保護します。
+            <strong>FIDO／パスキー</strong
+            >で一般化しているパスワードレス認証の考え方をIoT領域に応用した設計思想をベースとしており、
+            関連する準拠テストは通過済みです。正式な認定取得についても、必要に応じて対応可能な状態です。
           </p>
           <p>
-            キャピタルブルーは、このFDO仕様に準拠したサーバーサイドプラットフォームを
-            自社開発し、<strong>クラウド型ライセンス（SaaS）</strong>として企業向けに提供しています。
+            買い手企業側での<strong>内製運用・自社サービスへの組み込み</strong>を前提としたライセンス型モデルとなっており、
+            顧客のクラウド環境（AWS・GCP等）上での利用を想定しています。
+            必要に応じて初期導入支援や技術顧問としての継続支援も提供可能です。
           </p>
         </div>
         <div class="fdo-about-img">
@@ -98,11 +98,11 @@
           </li>
           <li>
             <div class="feature-icon">☁️</div>
-            <h3>クラウド型で<br />すぐに導入</h3>
+            <h3>顧客環境で<br />すぐに展開</h3>
             <p>
-              インフラ構築不要のSaaSモデル。ライセンス契約後すぐに利用開始でき、
-              アップデートや運用保守はキャピタルブルーが担当。
-              本業への集中を支援します。
+              顧客のクラウド環境（AWS・GCP等）への導入を前提とした設計。
+              ライセンス取得後、APIベースで既存システムとの連携が可能。
+              PoCレベルであれば短期間での検証もできます。
             </p>
           </li>
           <li>
@@ -189,47 +189,61 @@
       </header>
       <div class="fdo-pricing-inner">
         <p class="pricing-lead">
-          デバイス台数・利用規模・導入環境に応じて、最適なプランをご提案します。<br />
-          まずはお気軽にお問い合わせください。
+          ライセンス費用は導入規模・利用形態に応じたご提案となります。<br />
+          PoC（概念実証）レベルからスモールスタートが可能です。
         </p>
         <div class="pricing-cards">
           <div class="pricing-card">
-            <h3>Starter</h3>
-            <p class="pricing-target">PoC・小規模導入向け</p>
+            <h3>License</h3>
+            <p class="pricing-target">基本ライセンス</p>
+            <div class="pricing-price">
+              300万円〜<span class="pricing-unit">（初期）</span>
+            </div>
             <ul>
-              <li>デバイス管理台数：〜100台</li>
-              <li>クラウドホスティング込み</li>
-              <li>メールサポート</li>
-              <li>FDO仕様1.1準拠</li>
+              <li>認証基盤ライセンス一式</li>
+              <li>ソースコード・Docker構成</li>
+              <li>API仕様・設計ドキュメント</li>
+              <li>初期導入支援</li>
+              <li>顧客環境（AWS/GCP等）で運用</li>
             </ul>
             <a href="#fdo-contact" class="btn-contact">お問い合わせ</a>
           </div>
           <div class="pricing-card featured">
             <div class="featured-badge">おすすめ</div>
-            <h3>Business</h3>
-            <p class="pricing-target">中規模〜本番展開向け</p>
+            <h3>License + Support</h3>
+            <p class="pricing-target">ライセンス＋技術顧問</p>
+            <div class="pricing-price">
+              300万円〜<span class="pricing-unit">（初期）</span><br /><small
+                >＋ 月額 10万〜30万円</small
+              >
+            </div>
             <ul>
-              <li>デバイス管理台数：〜10,000台</li>
-              <li>クラウドホスティング込み</li>
-              <li>優先サポート（電話・メール）</li>
-              <li>マルチクラウド対応</li>
-              <li>SLA 99.9%</li>
+              <li>基本ライセンス一式（上記含む）</li>
+              <li>月次技術相談・設計レビュー</li>
+              <li>セキュリティ観点のアドバイス</li>
+              <li>段階的な機能拡張支援</li>
+              <li>FIDOアライアンス認定取得サポート</li>
             </ul>
             <a href="#fdo-contact" class="btn-contact">お問い合わせ</a>
           </div>
           <div class="pricing-card">
-            <h3>Enterprise</h3>
-            <p class="pricing-target">大規模・カスタム要件向け</p>
+            <h3>Custom</h3>
+            <p class="pricing-target">カスタム・大規模導入</p>
+            <div class="pricing-price">個別お見積り</div>
             <ul>
-              <li>デバイス管理台数：無制限</li>
-              <li>オンプレミス／ハイブリッド対応</li>
-              <li>専任サポート担当</li>
-              <li>カスタム開発対応</li>
-              <li>SLA 個別設定</li>
+              <li>OEM・再販ライセンス対応</li>
+              <li>独占ライセンス（交渉可）</li>
+              <li>複数拠点・大規模展開</li>
+              <li>セキュリティ要件カスタマイズ</li>
+              <li>長期顧問契約</li>
             </ul>
             <a href="#fdo-contact" class="btn-contact">お問い合わせ</a>
           </div>
         </div>
+        <p class="pricing-note">
+          ※
+          記載価格は税別です。導入規模・利用条件により変動します。まずはお気軽にご相談ください。
+        </p>
       </div>
     </section>
 
