@@ -1,0 +1,23 @@
+{
+  "servers": {
+    "notion": {
+      "type": "http",
+      "url": "https://mcp.notion.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${input:notionToken}"
+      }
+    },
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/"
+    }
+  },
+  "inputs": [
+    {
+      "id": "notionToken",
+      "type": "promptString",
+      "description": "Notion Internal Integration Secret",
+      "password": true
+    }
+  ]
+}
